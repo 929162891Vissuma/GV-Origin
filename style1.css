@@ -1,0 +1,53 @@
+body{
+    background-color: rgb(41, 41, 58);
+    
+    
+}
+
+button{
+    background-color: #3498dB;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    position: fixed;
+
+
+}
+button:active {
+    background-color: #1c6ca4;
+    transform: scale(0.95);
+}
+p-A{ font-size: 18px;
+    color: white;
+    font-style: initial;
+}
+
+h1{
+    color: white;
+    font-size: 40px;
+    margin-top: 30px;
+}
+
+
+.container {
+  position: relative;
+}
+
+.email-button {
+  position: fixed;
+  right: 10px;
+  bottom: 20px;
+  background-color: #3498dB;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+}
+.button-container {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}

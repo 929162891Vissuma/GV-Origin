@@ -1,0 +1,57 @@
+body{
+    background-color: rgb(41, 41, 58);
+}
+ .righteous-regular {
+  font-family: "Righteous", sans-serif;
+  font-weight: 400;
+  font-style:italic;/* se o texto será normal, italico ou obliquo*/
+
+  text-align: center;
+
+}
+
+h1{
+    font-size: 80px;
+    color: white;
+    margin-top: 20px; /* `margin-top` é uma propriedade do CSS que define o espaço entre o topo de um elemento e o elemento acima dele (ou sua borda superior). Basicamente, funciona como um "empurrão" para baixo, criando espaçamento e organizando melhor o layout.
+*/
+}
+
+p {
+    font-size: 30px;
+    color: whitesmoke;
+    font-style: normal;
+}
+
+ol{
+    color: rgb(201, 220, 226);
+}
+
+button{
+    background-color:#3498db;;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:active{
+    background-color: #1c6ea4;
+    transform: scale(0.95);
+}
+
+.email-button{
+position: fixed;
+bottom: 20px;
+right: 20px;
+z-index:999; 
+}
+
+.button-container {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
